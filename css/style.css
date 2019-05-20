@@ -336,15 +336,15 @@ nav a:hover {
   z-index: 1000;
 }
 
-#upbutton::after {
-  content: "\f077";
+/* #upbutton::after {
+  content: "";
   font-family: FontAwesome;
   font-weight: lighter;
   font-style: normal;
   font-size: 2em;
   line-height: 50px;
   color: #fff;
-}
+} */
 #upbutton:hover {
   cursor: pointer;
   background-color: #333;
