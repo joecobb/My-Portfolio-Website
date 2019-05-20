@@ -335,7 +335,10 @@ nav a:hover {
   visibility: hidden;
   z-index: 1000;
 }
-
+.no-container {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
 /* #upbutton::after {
   content: "";
   font-family: FontAwesome;
