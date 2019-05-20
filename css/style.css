@@ -374,7 +374,7 @@ nav a:hover {
   color: white;
   height: 50px;
   width: 100px;
-  font-weight: bolder;
+  font-weight: normal;
   border-radius: 0px;
   border: none;
 }
