@@ -1,9 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
+/* @import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600"); */
+@import url("https://fonts.googleapis.com/css?family=PT+Sans&display=swap");
 body {
   margin: 0;
   background: #fff;
   /* background: #e7e1e1; */
-  font-family: "Work Sans", sans-serif;
+  /* font-family: "Work Sans", sans-serif; */
+  font-family: "PT Sans", sans-serif;
   font-weight: 800;
 }
 
