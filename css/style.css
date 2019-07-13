@@ -1,10 +1,7 @@
-/* @import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600"); */
 @import url("https://fonts.googleapis.com/css?family=PT+Sans&display=swap");
 body {
   margin: 0;
   background: #fff;
-  /* background: #e7e1e1; */
-  /* font-family: "Work Sans", sans-serif; */
   font-family: "PT Sans", sans-serif;
   font-weight: 800;
 }
@@ -140,25 +137,12 @@ nav a:hover {
   padding: 0px 10px 10px 0px;
   font-size: 1em;
 }
-/* .section-title::before {
-  content: "";
-  display: block;
-  height: 3px;
-  background-color: #9f1f63;
-  position: absolute;
-  bottom: 0;
-  width: 290px;
-  left: 0;
-} */
 
 .section-others .underline {
   display: block;
   height: 3px;
   background-color: #9f1f63;
-  /* position: absolute; */
-  /* bottom: 0; */
   width: 290px;
-  /* left: 0; */
   margin: 0 auto;
 }
 
@@ -175,12 +159,8 @@ nav a:hover {
 .about-block p {
   line-height: 30px;
 }
-/* #me {
-  width: 50%;
-} */
+
 .main-text {
-  /* display: inline-block; */
-  /* margin: 300px 0px; */
   width: 100%;
 }
 .center-text {
@@ -341,15 +321,7 @@ nav a:hover {
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
-/* #upbutton::after {
-  content: "";
-  font-family: FontAwesome;
-  font-weight: lighter;
-  font-style: normal;
-  font-size: 2em;
-  line-height: 50px;
-  color: #fff;
-} */
+
 #upbutton:hover {
   cursor: pointer;
   background-color: #333;
@@ -367,7 +339,6 @@ nav a:hover {
     0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12),
     0 2px 4px -1px rgba(0, 0, 0, 0.2);
-  /* box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2); */
   transition: all ease-in-out 250ms;
 }
 
