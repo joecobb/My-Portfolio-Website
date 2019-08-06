@@ -1,9 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-103184042-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-103184042-2");
+    </script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta
+      name="Description"
+      content="A passionate and security-oriented freelance developer with over three years of professional experience in
+      planning, implementing, integrating, testing as well as supporting impactful applications. Skilled in
+      Android Development and Full-stack Web Development using Reactjs, MongoDB, Expressjs, and Nodejs"
+    />
+    <meta
+      name="Keywords"
+      content="Software Engineer ,Software Engineering, Software Engineer in Ghana,Software Company, Software Developer, Software Engineer CV, Software Engineer Portforlio, Portfolio, Ghana, Freelancing Websites, Freelancing jobs in Ghana, Freelancing Websites, Softwae Software Engineer in Accra,Joseph Cobbinah, Joseph, Cobbinah, Innovation, Software Engineer from University of Ghana, , Android Developer, Android, Android Apps, Software, Freelancer in Ghana, Freelancer in Accra, App Developer, Java Developer, Java Developers in Ghana, Java Developers in Accra, Artificial Intelligence, IBM, IBM Certified, Kotlin, react, mern stack, fullstack developers ghana ,fullstack engineers , mongo"
+    />
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -100,8 +127,17 @@
     <title>Joseph Cobbinah</title>
   </head>
   <body>
-    <a href="#top" id="upbutton"></a>
-    <row>
+    <a
+      href="#top"
+      id="upbutton"
+      style="  
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;"
+      ><i style="color:white" class="fas  fa-chevron-up"></i
+    ></a>
+    <div class="no-container row">
       <header id="main">
         <div class="container">
           <h1 class="logo"><img src="images/logo.png" alt="logo" /></h1>
@@ -117,7 +153,7 @@
           </nav>
         </div>
       </header>
-    </row>
+    </div>
     <div style="position:relative">
       <header id="mobile" class="hide">
         <div class="container-fluid" style="position:relative">
@@ -144,11 +180,11 @@
         </div>
       </header>
     </div>
-    <div class="row" style="padding-top: 65px;">
+    <div class="row no-container" style="padding-top: 65px;">
       <div class="container section section-top">
         <div class="row">
           <div class="col-md-6">
-            <img src="images/me.png" class="img-fluid" id="me" />
+            <img src="images/me.jpg" class="img-fluid" id="me" />
           </div>
           <div class="col-md-6 d-flex align-items-center">
             <div class="main-text ">
@@ -159,13 +195,13 @@
         </div>
       </div>
     </div>
-    <div class="row" style="background:#eee" id="about">
+    <div class="row no-container" style="background:#eee" id="about">
       <div class="container section section-others">
         <div style="text-align:center">
           <h1 class="section-title">About Me</h1>
           <div class="underline"></div>
         </div>
-        <div class="row">
+        <div class="row no-container">
           <div class="col-md-6 about-block">
             <h6
               style="font-size: 1em;
@@ -207,11 +243,15 @@
             class="col-md-12"
             style="padding-bottom: 40px; width: 100%; text-align: center"
           >
-            <a class="social-icon" href="https://github.com/joecobb"
+            <a
+              class="social-icon"
+              href="https://github.com/joecobb"
+              target="_blank"
               ><img class="img-fluid" src="images/svgs/social-github.svg"
             /></a>
             <a
               class="social-icon"
+              target="_blank"
               href="https://linkedin.com/in/joseph-cobbinah"
               ><img class="img-fluid" src="images/svgs/social-linkedin.svg"
             /></a>
@@ -220,7 +260,7 @@
       </div>
     </div>
 
-    <div class="row" id="skills">
+    <div class="row no-container" id="skills">
       <div
         class="container section section-others "
         style="padding-bottom: 70px;"
@@ -229,7 +269,7 @@
           <h1 class="section-title">Skills</h1>
           <div class="underline"></div>
         </div>
-        <div class="row">
+        <div class="row no-container">
           <div class="col-sm-4 col-md-2 col-6">
             <div class="skill-item" style="background: #A4C639;">
               <img class="img-fluid" src="images/svgs/android.svg" />
@@ -306,7 +346,7 @@
         </div>
       </div>
     </div>
-    <div class="row" style="background:#eee" id="experience">
+    <div class="row no-container" style="background:#eee" id="experience">
       <div
         class="container section section-others "
         style="padding-bottom: 70px;"
@@ -315,7 +355,7 @@
           <h1 class="section-title">Work Experience</h1>
           <div class="underline"></div>
         </div>
-        <div class="row">
+        <div class="row no-container">
           <div class="col-md-4">
             <div class="card ">
               <div class="card-body">
@@ -395,7 +435,7 @@
         </div>
       </div>
     </div>
-    <div class="row" id="education">
+    <div class="row no-container" id="education">
       <div
         class="container section section-others "
         style="padding-bottom: 70px;"
@@ -404,7 +444,7 @@
           <h1 class="section-title">Education</h1>
           <div class="underline"></div>
         </div>
-        <div class="row">
+        <div class="row no-container">
           <div class="col-md-4">
             <div class="card ">
               <div class="card-body">
@@ -437,6 +477,30 @@
                 <a
                   href="https://www.youracclaim.com/badges/4f699977-851f-463d-b54e-2e2187090804"
                   class="card-link"
+                  target="_blank"
+                  >Check it out</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card ">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Certified Artificial Intelligence Analyst
+                </h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  IBM
+                </h6>
+                <div class="card-text">
+                  <div>
+                    07/2019 – Present
+                  </div>
+                </div>
+                <a
+                  href="https://www.youracclaim.com/badges/779f3c7b-62e3-4f55-845b-324729615742/public_url"
+                  class="card-link"
+                  target="_blank"
                   >Check it out</a
                 >
               </div>
@@ -454,7 +518,10 @@
                     03/2019 – Present
                   </div>
                 </div>
-                <a href="http://ude.my/UC-ET4R386V" class="card-link"
+                <a
+                  href="http://ude.my/UC-ET4R386V"
+                  class="card-link"
+                  target="_blank"
                   >Check it out</a
                 >
               </div>
@@ -472,7 +539,33 @@
                     11/2018 – Present
                   </div>
                 </div>
-                <a href="http://ude.my/UC-NE9NMLXD" class="card-link"
+                <a
+                  href="http://ude.my/UC-NE9NMLXD"
+                  class="card-link"
+                  target="_blank"
+                  >Check it out</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card ">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Certified Enterprise Design Thinking Practitioner
+                </h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  IBM
+                </h6>
+                <div class="card-text">
+                  <div>
+                    07/2019 – Present
+                  </div>
+                </div>
+                <a
+                  href="https://www.youracclaim.com/badges/1863e70f-2087-43b7-9f03-61f432debbb8/linked_in_profile"
+                  class="card-link"
+                  target="_blank"
                   >Check it out</a
                 >
               </div>
@@ -482,7 +575,7 @@
       </div>
     </div>
 
-    <div class="row" style="background:#eee" id="portfolio">
+    <div class="row no-container" style="background:#eee" id="portfolio">
       <div
         class="container section section-others "
         style="padding-bottom: 70px;"
@@ -512,6 +605,7 @@
             </ul>
             <a
               href="https://play.google.com/store/apps/details?id=apps.joe.com.jnotes"
+              target="_blank"
             >
               <button type="button" class="btn btn-outline-primary">
                 Check it on the playstore
@@ -521,6 +615,7 @@
             <a
               href="https://github.com/joecobb/JNotes"
               style="display:block;margin-top:10px"
+              target="_blank"
             >
               <button type="button" class="btn btn-outline-primary">
                 Source code on github
@@ -554,6 +649,7 @@
             </ul>
             <a
               href="https://play.google.com/store/apps/details?id=com.roitycard"
+              target="_blank"
             >
               <button type="button" class="btn btn-outline-primary">
                 Check it on the playstore
@@ -564,7 +660,7 @@
       </div>
     </div>
 
-    <div class="row" id="contact">
+    <div class="row no-container" id="contact">
       <div
         class="container section section-others "
         style="padding-bottom: 70px;"
@@ -638,7 +734,7 @@
     </div>
     <footer
       class="text-center"
-      style="padding:10px;background: #9f1f63;color: white"
+      style="padding:10px;background: #9f1f63;color: white; font-weight: 100;font-size:0.9em;"
     >
       © Copyright <span id="copyright-year"></span> Joseph Cobbinah. All rights
       reserved.
@@ -669,5 +765,3 @@
     <script src="js/script.js"></script>
   </body>
 </html>
-
-<!-- e7e1e1 -->
